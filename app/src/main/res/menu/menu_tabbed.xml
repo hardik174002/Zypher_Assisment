@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="hardik4002.learn.and.zypher_assisment.TabbedActivity">
+    <item
+        android:id="@+id/action_close"
+        android:orderInCategory="300"
+        android:icon="@drawable/ic_close"
+        app:showAsAction="always"
+        android:title="Close" />
+</menu>

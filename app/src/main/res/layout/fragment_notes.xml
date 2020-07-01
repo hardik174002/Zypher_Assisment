@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#CE141414"
+    android:layout_height="match_parent"
+    tools:context=".NotesFragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/bubblegum_sans"
+        android:gravity="center"
+        android:text="This is Notes Fragment inside Tab layout "
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+</LinearLayout>

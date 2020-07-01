@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F3141414"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5E141414"
+        android:id="@+id/toolbar">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="goToTabbedActivity"
+            android:src="@drawable/ic_hamburger"/>
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:padding="16dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bubblegum_sans"
+            android:id="@+id/textView"
+            android:textAlignment="textStart"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </ScrollView>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:background="#ffffff"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:orientation="vertical">
+        <android.support.v7.widget.AppCompatSeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:thumbTint="#ffffff"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back To Page 3"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:text="15 of 734"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#95FFFFFF"
+                android:textSize="12sp"
+                android:text="29 pages left"/>
+        </LinearLayout>
+    </LinearLayout>
+   </LinearLayout>
